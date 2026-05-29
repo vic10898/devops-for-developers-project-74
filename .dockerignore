@@ -1,2 +1,9 @@
 app/node_modules
 node_modules
+.git
+.github
+*.md
+services/
+docker-compose*.yml
+app/.env
+app/.env.*
