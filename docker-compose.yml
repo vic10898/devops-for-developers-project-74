@@ -1,0 +1,7 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile.production
+    image: winnypoox/devops-for-developers-project-74
+    command: make test
